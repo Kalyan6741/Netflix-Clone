@@ -1,0 +1,834 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.695);
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.page1 {
+    height: 85vh;
+    width: 100vw;
+   
+}
+
+.intro { 
+    height: 85vh;
+    width: 100vw;
+    background:url("image.png");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.headline {
+    
+    background-color: rgba(0, 0, 0, 0);
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("netflix-logo.png");
+    filter: contrast(-90%);
+    height: 3.5rem;
+    width: 10.2rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    margin-right:10vw ;
+}
+
+.langSel {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    padding: 1rem;
+    margin-left:10vw ;
+
+}
+
+select {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    height: 2rem;
+    width: 8rem;
+    margin-right: 2rem;
+    text-align:start;
+    padding-left: 2.2rem;
+    appearance: none;
+    align-items: center;
+    border-radius: 3.5px;
+    font-size: 1rem;
+    font-weight: 540;
+    outline: none;
+
+}
+.arrowIcon{
+    font-size: 0.45rem;
+    transform: scaleX(1.5);
+    padding-left: 0.3rem;
+    background-color: transparent;
+    position: relative;
+    right: 3.6rem;
+    top: 0.85rem;
+}
+select:hover {
+    border: 2px solid whitesmoke;
+
+}
+
+.sign-in button {
+    color: white;
+    height: 2rem;
+    width: 4.2rem;
+    font-size: 0.93rem;
+    background-color: red;
+    border-style: none;
+    border-radius: 3.5px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: rgba(176, 25, 25, 0.878);
+}
+
+.langPic {
+    
+    width: 2rem;
+    height: 2rem;
+    background-image: url("Screenshot\ 2023-11-28\ 142928.png");
+    background-color: transparent;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    right:-34px;
+    
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#first-line {
+    margin-top: 160px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+#second-line {
+    font-size: 1.7rem;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+#third-line {
+    font-size: 1.3rem;
+    font-weight: normal;
+    
+}
+
+.foremail {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+.Email{
+    background-color: transparent;
+}
+.Email input {
+    background-color: black;
+    width: 24.2rem;
+    height: 3.6rem;
+    color: aliceblue;
+    border-style: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid rgb(106, 101, 95);
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+::placeholder{
+     font-size: 1rem;
+     color: rgb(174, 171, 171);   
+     
+}
+
+.Email input:hover {
+    border: 2px solid aliceblue;
+    border-radius: 5px;
+}
+
+.getStarted {
+    width: 12rem;
+    height: 3.6rem;
+    margin-left:0.3rem;
+    background-color: red;
+    color: white;
+    font-size: 1.6rem;
+    text-align: start;
+    padding-left:1rem;
+    font-weight: normal;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.getStarted-icon {
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+
+}
+
+.leftIcon{
+    font-size: 1.9rem;
+    font-weight: 200;
+    background-color:transparent;
+    position: relative;
+    right: 2.5rem;
+    top: 0.2rem;
+    
+}
+
+.page2 {
+    margin-top: 0.5rem;
+    height: 65vh;
+    width: 100vw;
+    background-color: black;
+
+}
+
+.mix {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.7vw;
+}
+
+.lines {
+    color: aliceblue;
+    height: 50%;
+    width: 45%;
+    margin-top: 2vw;
+}   
+
+.line1 {
+    font-size: 3rem;
+    height: auto;
+    width: 100%;
+    font-weight:800;
+    text-align: start;
+    padding:0 0.3rem;
+}
+
+.line2 {
+    margin-top: 0.2rem;
+    height: auto;
+    width: 90%;
+    font-size: 1.5rem;
+    line-height: 125%;
+    font-weight: normal;
+    text-align: start;
+    padding: 0.3rem;
+}
+
+.tv {
+    background-image: url("tv.png");
+    height:85%;
+    width: 40%;
+    padding: 0.8rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin-bottom: 5%;
+    
+}
+
+.page3 {
+    height: 65vh;
+    width: 100vw;
+    background-color: black;
+    margin-top: 0.5rem;
+
+}
+
+.downloadinfo {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    padding: 2% 0;
+   
+}
+
+.stPhoto{
+    background-image: url("mobile.jpg");
+    height:85%;
+    width:45%;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
+
+.stPhotoAnime {
+    height:12%;
+    width:20%;
+    background-color: black;
+    border: 2px solid gray;
+    border-radius: 9px;
+    display: flex;
+    padding:0.3rem;
+    align-items: center;
+    position:absolute;
+    left:13%;
+    bottom: -106%;
+     
+}
+.boxshot{
+    background-image: url("boxshot.png");
+    height: 90%;
+    width: 20%;
+    margin-right:2%;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
+
+.stName {
+    width: 70%;
+}
+
+.seriesName {
+    width: fit-content;
+    font-size: 1rem;
+    text-align: left;
+    padding: 2px;
+    padding-left:0.85rem;
+
+}
+
+.downloadingText {
+    width: fit-content;
+    font-size: 0.9rem;
+    color: #0071eb;
+    text-align: left;
+    padding-left: 0.85rem;
+
+}
+
+.info {
+    height:80%;
+    width: 45%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info1 {
+    color: white;
+    width: 90%;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: start;
+}
+
+.info2 {
+    padding-top: 0.8rem;
+    width: 90%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: start;
+}
+
+.page4 {
+    width: 100vw;
+    height: 430px;
+    background-color: black;
+    margin-top: 0.5rem;
+    padding-top: 72px;
+}
+
+.desktopAndPhone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.streamInfo {
+
+    width: 450px;
+    height: 230px;
+    padding-top: 2rem;
+    padding-right: 3rem;
+
+}
+
+.streamInfo1 {
+    width: 450px;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: start;
+
+}
+
+.streamInfo2 {
+    padding-top: 0.8rem;
+    width: 450px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: start;
+}
+
+.imgdesktopAndPhone {
+    background-image: url(device-pile-in.png);
+    width: 475px;
+    height: 330px;
+    padding: 0.8rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+    
+}
+
+.page5 {
+    width: 100vw;
+    height: 430px;
+    background-color: black;
+    margin-top: 0.5rem;
+    padding-top: 72px;
+}
+
+.childrenChoice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.childrenAnimePhoto {
+    background-image: url(children.png);
+    height: 200px;
+    width: 200px;
+    padding: 0.8rem ;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+}
+
+.childrenInfo {
+    width: 450px;
+    height: 230px;
+    padding: 2rem 0 2rem 3rem;
+}
+
+.childrenInfo1 {
+    width: 473px;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: start;
+}
+
+.childrenInfo2 {
+    padding-top: 0.8rem;
+    width: 473px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: start;
+
+}
+@media screen and (min-width:235px) and (max-width:500px){
+    .page1 {
+        height: 65vh;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+    
+    .intro {
+        height: 100%;
+        width: 100vw;
+    }
+    
+    .headline {
+          height: 10vh;
+          width: 100vw;
+          margin-top: 1.2vh;
+    }
+    
+    .logo {
+        height:5vh;
+        width: 25vw;
+        padding: 0;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 10vw;
+    }
+     .langSel{
+        padding: 0;
+        margin-left: 10vw;
+     }
+    select {
+        height: 4vh;
+        width:16vw;
+        border-radius: 0.9vw;
+    }
+      
+    .sign-in button {
+        height: 4vh;
+        width: 19vw;
+        font-size: 4vw;
+        font-weight: 400;
+        border-radius: 0.9vw;
+    }
+
+    .globe-icon {
+        display: none;
+    }
+
+    #first-line {
+        margin-top: 8vw;
+        padding: 0 4%;
+        font-size: 9.3vw;
+        font-weight: 750;
+    }
+    
+    #second-line {
+        font-size: 5vw;
+        font-weight: 500;
+        margin-bottom: 5%;
+        padding: 0 4%;
+    }
+    
+    #third-line {
+        font-size: 5vw;
+        font-weight: 500;
+        padding: 0 10%;
+    }
+    
+    .foremail {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 5% 0;
+    }
+    
+    .Email input {
+        width: 75vw;
+        height: 7vh;
+        font-size: 4vw;
+        margin: 0;
+    }
+    
+    ::placeholder{
+         font-size: 3.4vw;
+         color: rgb(174, 171, 171);   
+         
+    }
+    
+    .getStarted {
+        width: 30vw;
+        height: 5.7vh;
+        color: white;
+        font-size: 4vw;
+        font-weight: 540;
+        border-style: none;
+        margin: 0;
+        margin-top:0.5VW;
+    }
+
+    #getStarted-i{
+        background-color: rgba(0, 0, 0, 0);
+        position: relative;
+        font-size: 6vw;
+        font-weight: 400;
+        right: -5px;
+        top: 2.45px;
+        
+    }
+    
+    .foremail {
+        background-color: rgba(0, 0, 0, 0);
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .page2 {
+        margin-top: 0.5rem;
+        height: 65vh;
+        width: 100vw;
+        background-color: black;
+    }
+    
+    .mix {
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .lines {
+        color: aliceblue;
+        height: 21vh;
+        width: 100vw;
+        padding-top: 2rem;
+    }
+    
+    .line1 {
+        font-size: 7vw;
+        font-weight: 750;
+        text-align: center;
+    }
+    
+    .line2 {
+        width: 100vw;
+        padding: 0 5%;
+        line-height:120%;
+        font-size: 4.5vw;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .tv {
+        background-image: url("tv.png");
+        height: 30vh;
+        width: 80vw;
+        padding-left: 1.5rem;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 10vh;
+    
+    }
+
+    .page3 {
+        height: 63vh;
+        width: 100vw;
+        background-color: black;
+         margin: 0;
+         margin-top: 0.5rem;
+         padding: 0;
+    }
+    
+    .downloadinfo {
+        height: 63vh;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+       
+    }
+    .stPhoto{
+        background-image: url("mobile.jpg");
+        height:38vh;
+        width: 75vw;
+        background-position: center;
+        background-size:cover;
+        padding: 0;
+        margin-bottom: 3vh;
+    }
+    
+    .stPhotoAnime {
+        height: 8.3vh;
+        width: 67vw;
+        background-color: black;
+        border: 2px solid gray;
+        border-radius: 9px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 73%;
+        left:5.5%;
+    
+    }
+    .boxshot{
+        background-image: url("boxshot.png");
+        height: 7vh;
+        width: 11vw;
+        padding: 0.2vh;
+        margin-right: 5vw;
+        background-position: center;
+        background-size:cover;
+
+    }
+    .stName {
+        width:40vw;
+    }
+    
+    .seriesName {
+    
+        font-size: 3.3vw;
+        font-weight: 600;
+        text-align: left;
+        padding: 0;
+    
+    }
+    
+    .downloadingText {
+        font-size: 2.7vw;
+        color: rgb(82, 82, 248);
+        text-align: left;
+        margin-top: 0.5vh;
+        padding: 0;
+    
+    }
+    
+    .info {
+        height: 18vh;
+        width: 100vw;
+        padding: 1vw;
+        margin: 0;
+        margin-top: 7vw;
+    }
+    
+    .info1 {
+        font-size: 7vw;
+        font-weight: 750;
+        text-align: center;
+        line-height: 120%;
+    }
+    
+    .info2 {
+        padding-top: 0.5rem;
+        font-size: 4.5vw;
+        font-weight: 300;
+        text-align: center;
+        line-height: 120%;
+    }
+    .page4 {
+        width: 100vw;
+        height: 60vh;
+        background-color: black;
+        margin-top: 0.5rem;
+        padding-top: 0;
+    }
+    
+    .desktopAndPhone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+    
+    .streamInfo {
+        padding: 0;
+       margin: 0;
+        width: 100vw;
+        height: 20vh;  
+    
+    }
+    
+    .streamInfo1 {
+        font-size: 7vw;
+        font-weight: 750;
+        text-align: center;
+        padding: 2vw;
+        padding-top: 10vw;
+        width: 100vw;
+    }
+    
+    .streamInfo2 {
+        padding: 2vw;
+        width: 100vw;
+        line-height: 140%;
+        font-size: 4vw;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .imgdesktopAndPhone {
+        background-image: url("device-pile-in.png");
+        width: 80vw;
+        height: 30vh;
+        padding: 2vw;
+        margin-top: 5vw;
+        background-size: cover;
+        background-position: center;
+       
+    }
+    .page5 {
+        width: 100vw;
+        height: 60vh;
+        background-color: black;
+        margin-top: 0.5rem;
+        padding: 0;
+        padding-top: 5vh;
+    }
+    
+    .childrenChoice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+    .childrenAnimePhoto{
+        background-image: url("children.png");
+        height: 30vh;
+        width: 70vw;
+        background-size: cover;
+        background-position: center;
+    }
+    .childrenInfo {
+        width: 100vw;
+        height: 20vh;
+        padding:0;
+
+    }
+    
+    .childrenInfo1 {
+        width: 100vw;
+        font-size: 7vw;
+        font-weight: 750;
+        text-align: center;
+        padding: 2vw;
+    }
+    
+    .childrenInfo2 {
+        padding-top: 1vw;
+        width: 100vw;
+        line-height: 130%;
+        font-size: 4vw;
+        font-weight: 450;
+        text-align: center;
+        padding: 2vw;
+    }
+}
